@@ -1,0 +1,16 @@
+{
+  "name": "git-binary-helper",
+  "version": "1.0.0",
+  "description": "A simple tool to help with Git binary files",
+  "type": "module",
+  "bin": {
+    "git-binary-helper": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
