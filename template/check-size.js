@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 
 const limit = 21474836480; //20 GB in bytes
 const staged = execSync('git diff --cached --name-only').toString().split('\n').filter(Boolean);
-const error_msg = '';
+let error_msg = '';
 let has_failed = false;
 
 staged.forEach((file) => {
